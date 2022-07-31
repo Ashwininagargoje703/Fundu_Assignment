@@ -1,0 +1,33 @@
+.man {
+    background-color: white;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    width: 72%;
+    height: 110px;
+    margin: auto;
+    border: 1px solid transparent;
+    padding-top: 50px;
+}
+
+.scndDiv {
+    height: 230px;
+    width: 72%;
+    margin: auto;
+}
+
+.thirdDiv {
+    height: 400px;
+    margin: auto;
+    width: 72%;
+}
+
+.lastDiv {
+    height: 700px;
+    margin: auto;
+    width: 72%;
+    border: 1px solid transparent;
+}

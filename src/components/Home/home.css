@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+    color: #f2eaea;
+}
+
+.sliderImg {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sliderImg span {
+    position: absolute;
+    top: 80%;
+    margin-left: 50px;
+    color: white;
+    font-size: x-large;
+}
+
+.gamesDiv {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.gamesDiv h4 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.gamesDiv>div {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    justify-content: space-between;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.exploreDiv {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+.des {
+    color: #6f6d6d;
+    font-size: 13px;
+}
+
+.exploreDiv>div {
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.exploreDiv button {
+    background-color: #f2eaea;
+    color: #121212;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.exploreDiv button:hover {
+    background-color: transparent;
+    color: #f2eaea;
+    border: 1px solid #f2eaea;
+}
