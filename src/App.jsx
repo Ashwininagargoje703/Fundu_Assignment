@@ -8,6 +8,7 @@ import { Service } from './components/Service/Service'
 import { GamePage } from './components/GamePage/GamePage'
 import { SignInSide } from "./components/sign-in/Login"
 import { SignUpSide } from "./components/sign-up/SignUp"
+import {Login } from './components/Login/login'
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/gaming' element={<GamePage />} />
         <Route path="/signup" element={<SignUpSide />} />
           <Route path="/signin" element={<SignInSide />} />
+           <Route path="/login" element={<Login />} /> 
       </Routes>
       <Footer />
     </div>

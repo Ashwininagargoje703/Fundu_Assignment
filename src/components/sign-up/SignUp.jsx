@@ -195,6 +195,12 @@ export function SignUpSide() {
                   </Grid>
                 </Grid>
                 <Grid>
+                  <Link href="http://localhost:3000/login" variant="body2">
+                    {"LOGIN WITH OTP"}
+                  </Link>
+                  
+                </Grid>
+                <Grid>
                 
               </Grid>
              <Googleauth/>

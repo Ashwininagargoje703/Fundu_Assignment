@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./navbar.css"
 import { Profile } from "./Profile";
+// import { Toggle } from './Toggle';
+
 
 const Navbar = () => {
     return (
@@ -14,7 +16,9 @@ const Navbar = () => {
             <div>
                 <Link to='/service'><div>Service</div></Link>
          <div className="navbar_login"><Profile/></div>
+         {/* <Toggle themeToggler={themeToggler} /> */}
             </div>
+          
         </nav>
     )
 }
