@@ -1,12 +1,14 @@
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./login.css";
 export const Login = ({ isAuthenticate, setAuth }) => {
   const [Name, setName] = useState(String);
   const [Mobile, setMobile] = useState(Number);
   const [cMobile, setcMobile] = useState(Number);
   const [getOtp, setGetotp] = useState("");
-
+  const navigate = useNavigate();
+  const [showerr, setShowerr] = useState(false);
   const [otpEnter, setEnter] = useState(true);
 
   const [otploading, setOtploading] = useState(false);
@@ -38,11 +40,16 @@ export const Login = ({ isAuthenticate, setAuth }) => {
   };
 
   const handleLogin = () => {
+
     let otp = sessionStorage.getItem("otp");
     if (otp - 1 == +getOtp) {
       alert(`Welcome ${Name} Congratulation Login Suceesfull 🤓`);
+     
+      navigate("/")
+      setShowerr(false);
       // setAuth(true);
     } else {
+      setShowerr(true);
       alert(`otp not match`);
     }
   };

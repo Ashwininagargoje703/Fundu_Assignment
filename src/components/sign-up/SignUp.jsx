@@ -193,16 +193,17 @@ export function SignUpSide() {
                       {"Already have an account? Sign in"}
                     </Link>
                   </Grid>
+
                 </Grid>
-                <Grid>
+                <Grid item >
                   <Link href="http://localhost:3000/login" variant="body2">
                     {"LOGIN WITH OTP"}
                   </Link>
                   
                 </Grid>
-                <Grid>
+                {/* <Grid>
                 
-              </Grid>
+              </Grid> */}
              <Googleauth/>
               <Copyright sx={{ mt: 5 }} />
             </Box>
