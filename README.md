@@ -21,4 +21,12 @@
 <h3>This is the Gamming Plathform Page</h3>
 <img src="https://github.com/Ashwininagargoje703/Imges/blob/main/GamingPlatform.img.png"/>
 <h3>This is the Service Page</h3>
-<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/About.img.png"/>
+<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/services.img.png"/>
+<h3>This is the Login Page</h3>
+<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/Login.img.png"/>
+<h3>This is the SignUp & signup With GoogleAuth Page</h3>
+<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/signupwithGoogle.img.png"/>
+<h3>This is theLogin with OptPage</h3>
+<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/loginWithOtp.img.png"/>
+<h3>This is the OTP Page</h3>
+<img src="https://github.com/Ashwininagargoje703/Imges/blob/main/loginWithOpt.img2.png"/>
