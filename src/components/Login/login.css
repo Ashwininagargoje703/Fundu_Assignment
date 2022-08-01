@@ -35,12 +35,12 @@
     top: 50%;
     left: 36%;
   }
-  img {
+  .img2{
     width: 100%;
     height: 100%;
     border-radius: 200px;
   }
-  input {
+  .int {
     width: 90%;
     height: 35px;
     border: none;
@@ -58,7 +58,7 @@
     color: white;
     margin-left: 30%;
   }
-  .h1{
+  .h0{
     text-shadow: #f0f2f5;
     text-align: center;
   }

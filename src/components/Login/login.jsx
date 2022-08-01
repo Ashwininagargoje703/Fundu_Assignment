@@ -50,24 +50,24 @@ export const Login = ({ isAuthenticate, setAuth }) => {
   return (
     <>
     <div className="otp">
-      <h1 className=" h1">Login With OTP 😍</h1>
+      <h1 className=" h0">Login With OTP 😍</h1>
       <img
         className="loginLogo"
         src="https://play-lh.googleusercontent.com/n0GFhdliUbbaijnLZU7CpMOaOhujy55jtaMUUy_sHSR9AF_YDYEEPi5up1toFd3mTg=w240-h480-rw"
       />
-      <input
+      <input className="int"
         type="text"
         disabled={dis}
         onChange={(e) => setName(e.target.value)}
         placeholder="Enter Your name"
       />
-      <input
+      <input className="int"
         type="number"
         disabled={dis}
         onChange={(e) => setMobile(e.target.valueAsNumber)}
         placeholder="Enter Your mobile no.(enter only 10 digit no)"
       />
-      <input
+      <input className="int"
         type="number"
         disabled={dis}
         onChange={(e) => setcMobile(e.target.valueAsNumber)}
@@ -85,30 +85,31 @@ export const Login = ({ isAuthenticate, setAuth }) => {
         ""
       )}
 
-      <input
+      <input className="int"
         type="submit"
         disabled={Mobile != cMobile}
         value={"Send OTP"}
         onClick={handleOtp}
       />
       <hr />
-      <input
+      <input className="int"
         type="number"
         // disabled={otpEnter}
         onChange={(e) => setGetotp(e.target.value)}
         placeholder="Enter OTP"
       />
-      <input
+      <input className="int"
         type="button"
         // disabled={otpEnter}
         value={"login"}
         onClick={handleLogin}
         style={{ backgroundColor: "black", color: "white" }}
+
       />
 
       {otploading ? (
         <div className="otploading">
-          <img
+          <img className="img2"
             src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif"
             alt=""
           />
